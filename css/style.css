@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+@font-face {
+  font-family: 'Miso';
+  src: url('../fonts/Miso.woff2') format('woff2'),
+      url('../fonts/Miso.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+html {
+	height: 100%;
+  }
+  html,
+  body {
+	min-height: 100%;
+  }
+  *,h3,p,.wi {
+	transition: all 0.2s ease-in;
+  }
+  *,
+  *::before,
+  *::after {
+	box-sizing: border-box;
+	
+  }
+body {
+  font-family: "Miso", sans-serif;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 900px;
+  background-color: #fdde7e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ba-item {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  max-width: 250px;
+  background-color: white;
+  flex-basis: 33%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+ 
+}
+h1 {
+  font-size: 40px;
+  color: green;
+}
+h1,
+h2 {
+	font-family: 'Miso',sans-serif;
+  margin-right: 20px;
+}
+p {
+  max-width: 160px;
+  text-align: center;
+
+}
+img{
+	width: 40%;
+}
+.ba-item:hover {
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
